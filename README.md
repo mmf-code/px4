@@ -184,10 +184,6 @@ RViz hazır display’ler:
 
 PX4 konsolunda moda geçişleri ve MAVROS’ta bağlantı logları görülür.
 
-## Sorun Giderme İpuçları
-- MAVROS bağlanmıyor: `fcu_url` içinde portu 14540 kullandığınıza emin olun. İlk SITL instance budur.
-- Offboard reddi: Setpoint akışı yeterli değilse PX4 OFFBOARD’a geçmez. Node setpoint’i 20 Hz gönderir; gecikmeli sistemlerde CPU yükünü kontrol edin.
-- Çerçeve: MAVROS local pose ENU, PX4 NED’dir. `local_position/pose` z yukarı pozitiftir; kod buna göre yazılmıştır.
 
 ## Dizin Yapısı
 - scripts/get_px4.sh: PX4 klonlama/derleme + bağımlılıklar
