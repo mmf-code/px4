@@ -7,9 +7,23 @@ build/
 install/
 ros2_ws/build/
 ros2_ws/install/
+ros2_ws/log/
 
 # Logs and runtime outputs
 log/
 
 # Editor
 .vscode/
+
+# PX4 upstream clone and its artifacts (do not push heavy sources)
+PX4-Autopilot/
+
+# CMake/obj artifacts (defensive)
+**/CMakeCache.txt
+**/CMakeFiles/
+**/*.o
+**/*.so
+**/*.a
+
+# Misc local markers
+.built_by
