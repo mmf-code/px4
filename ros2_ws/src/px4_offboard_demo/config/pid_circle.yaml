@@ -1,0 +1,22 @@
+px4_offboard_demo:
+  ros__parameters:
+    mode: circle
+    target_alt: 2.5
+    circle_radius: 2.0
+    circle_period: 10.0
+    pid_xy.kp: 0.8
+    pid_xy.ki: 0.0
+    pid_xy.kd: 0.1
+    pid_xy.i_limit: 1.0
+    pid_z.kp: 1.0
+    pid_z.ki: 0.0
+    pid_z.kd: 0.1
+    pid_z.i_limit: 1.0
+    limit.v_xy: 2.0
+    limit.v_z: 1.0
+    geofence.x_min: -20.0
+    geofence.x_max: 20.0
+    geofence.y_min: -20.0
+    geofence.y_max: 20.0
+    geofence.z_min: 0.0
+    geofence.z_max: 20.0

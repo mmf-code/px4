@@ -1,0 +1,30 @@
+px4_offboard_demo:
+  ros__parameters:
+    mode: zigzag_repeat
+    wp_accept_radius: 0.6
+    wp_hold_time: 0.5
+    target_alt: 2.5
+    zigzag.length_m: 20.0
+    zigzag.width_m: 4.0
+    zigzag.dx: 2.0
+    zigzag.alt: 2.5
+    zigzag.loops: 0
+    pid_xy.kp: 0.9
+    pid_xy.ki: 0.0
+    pid_xy.kd: 0.12
+    pid_xy.i_limit: 1.0
+    pid_z.kp: 1.2
+    pid_z.ki: 0.0
+    pid_z.kd: 0.1
+    pid_z.i_limit: 1.0
+    limit.v_xy: 2.0
+    limit.v_z: 1.0
+    limit.dv_xy: 1.0
+    limit.dv_z: 1.0
+    adapt.enable: true
+    adapt.avg_err_target: 1.0
+    adapt.margin: 0.2
+    adapt.kp_step: 0.05
+    adapt.v_step: 0.2
+    adapt.v_min: 0.8
+    adapt.v_max: 3.5

@@ -1,0 +1,7 @@
+waypoints:
+  # Relative ENU meters from home. alt is relative (z up)
+  - { x: 0.0,  y: 0.0,  alt: 2.5 }
+  - { x: 3.0,  y: 0.0,  alt: 2.5 }
+  - { x: 3.0,  y: 3.0,  alt: 2.5 }
+  - { x: 0.0,  y: 3.0,  alt: 2.5 }
+  - { x: 0.0,  y: 0.0,  alt: 2.5 }
